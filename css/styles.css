@@ -7979,6 +7979,11 @@ textarea.form-control-lg {
 
 .fw-bolder {
   font-weight: bolder !important;
+  background-color: #e0bc4c;
+  color: black;
+  width: 8rem; /* Adjust the width as needed */
+  height: 5em; /* Adjust the height as needed */
+  display:inline-block;
 }
 
 .lh-1 {

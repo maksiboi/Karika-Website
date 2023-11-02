@@ -7979,7 +7979,7 @@ textarea.form-control-lg {
 
 .fw-bolder {
   font-weight: bolder !important;
-  background-color: #e0bc4c;
+  background-color: rgba(83, 230, 54, 0.8); ;
   color: black;
   width: 8rem; 
   height: 5em; 

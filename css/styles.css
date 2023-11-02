@@ -10875,7 +10875,7 @@ p {
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
   font-size: 1rem;
   font-weight: 400;
-  font-style: italic;
+  font-style: "Söhne", sans-serif;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin-bottom: 4rem;
 }
@@ -10993,7 +10993,7 @@ header.masthead {
 
 header.masthead .masthead-subheading {
   font-size: 1.8rem;
-  font-style: verdana;
+  font-style: "Söhne", sans-serif;
   line-height: 1.5rem;
   margin-bottom: 25px;
   margin-left: 1rem;
@@ -11018,7 +11018,7 @@ header.masthead .masthead-heading {
 
   header.masthead .masthead-subheading {
     font-size: 3.2rem;
-    font-style: verdana;
+    font-style: "Söhne", sans-serif;
     line-height: 2.25rem;
     margin-bottom: 2rem;
     margin-left: 0.5rem;
@@ -11286,6 +11286,7 @@ header.masthead .masthead-heading {
 .team-member {
   margin-bottom: 3rem;
   text-align: center;
+  font-style: "Söhne", sans-serif;
   margin-top: 2rem;
 }
 .team-member img {
@@ -11311,9 +11312,11 @@ section#contact {
   background-image: url("../assets/img/contact/zena\ i\ ruka\ _\ zadnja\ slika.avif");
   background-repeat: no-repeat;
   background-position: center;
+  font-style: "Söhne", sans-serif;
 }
 section#contact .section-heading {
   color: #fff;
+  font-style: "Söhne", sans-serif;
 }
 section#contact form#contactForm .form-group {
   margin-bottom: 1.5rem;
@@ -11414,7 +11417,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 #about2 {
   background-color: rgba(180, 122, 118, 1);
-  font-family: "Söhne", sans-serif; /* "Söhne" font style */
+  font-style: "Söhne", sans-serif; /* "Söhne" font style */
   padding-top: 3rem; /* Increase the top padding for larger screens */
   padding-bottom: 3.5rem; /* Increase the bottom padding for larger screens */
   text-align: center;
@@ -11435,7 +11438,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 #about3 {
   background-color: #394F43;
-  font-family: "Söhne", sans-serif; /* "Söhne" font style */
+  font-style: "Söhne", sans-serif; /* "Söhne" font style */
   padding-top: 3rem; /* Increase the top padding for larger screens */
   padding-bottom: 3rem; /* Increase the bottom padding for larger screens */
   text-align: center;
@@ -11475,7 +11478,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 #teme2 {
   background-color: rgba(180, 122, 118, 1);
-  font-family: "Söhne", sans-serif;; /* "Söhne" font style */
+  font-style: "Söhne", sans-serif; /* "Söhne" font style */
   padding-top: 3rem; /* Increase the top padding for larger screens */
   padding-bottom: 3.5rem; /* Increase the bottom padding for larger screens */
   text-align: center;
@@ -11496,7 +11499,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 #usluge {
   padding-left: 5.5rem;
   text-align: left;
-  font-family: "Söhne", sans-serif;
+  font-style: "Söhne", sans-serif;
   color: #fff; /* Change text color as needed */
   padding-top: 10rem; /* Reduce the top padding to move the content closer to the top margin */
   padding-bottom: 5rem; /* Keep the bottom padding as needed */
@@ -11523,7 +11526,7 @@ section#contact form#contactForm :-ms-input-placeholder {
     position: relative; /* Make the section a positioning context */
     padding-left: 1.8rem;
     text-align: left;
-    font-family: "Söhne", sans-serif;
+    font-style: "Söhne", sans-serif;
     color: #fff; /* Change text color as needed */
     padding-top: 3rem; /* Reduce the top padding to move the content closer to the top margin */
     padding-bottom: 2rem; /* Keep the bottom padding as needed */
@@ -11563,7 +11566,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 #usluge2{
   background-color: #6d5b4f;
   color: #fff;
-  font-family: "Söhne", sans-serif;
+  font-style: "Söhne", sans-serif;
 }
 
 #usluge2 h2 {
@@ -11598,7 +11601,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 #presentation {
   text-align: center;
-  font-family: "Söhne", sans-serif;
+  font-style: "Söhne", sans-serif;
   font-size: 4rem;
   color: #fff;
   padding-top: 20rem;
@@ -11643,6 +11646,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 #presentation2{
   background-color: #6d5b4f;
+  font-style: "Söhne", sans-serif;
   color: #fff;
   padding-bottom: 3rem;
   padding-top: 3rem;
@@ -11655,6 +11659,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 @media (max-width: 768px) {
   #presentation2{
     background-color: #6d5b4f;
+    font-style: "Söhne", sans-serif;
     color: #fff;
     padding-top: 2.4rem;
     padding-bottom: 2.2rem;
@@ -11677,4 +11682,5 @@ h2.section-heading.text-uppercase-3 {
 
 #location{
   background-color: #e0bc4c;
+  font-style: "Söhne", sans-serif;
 }

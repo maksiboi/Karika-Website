@@ -247,7 +247,7 @@
                 <!-- To make this form functional, sign up at-->
                 <!-- https://startbootstrap.com/solution/contact-forms-->
                 <!-- to get an API token!-->
-                <form id="contactForm" data-sb-form-api-token="">
+                <form id="contactForm" data-sb-form-api-token="ed4277c5-48cf-465e-a6f8-1f18912aaf75">
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
                             <div class="form-group">
@@ -359,21 +359,5 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-        <script>
-            // Use JavaScript to fetch and process the data from the file
-            fetch('data.json')
-                .then(response => response.json())
-                .then(data => {
-                    // Access the API token from the data
-                    const apiToken = data.apiToken;
-     
-                    // Set the API token as the value of the data-sb-form-api-token attribute
-                    const contactForm = document.getElementById('contactForm');
-                    contactForm.setAttribute('data-sb-form-api-token', apiToken);
-                })
-                .catch(error => {
-                    console.error('Error fetching data:', error);
-                });
-        </script>
     </body>
 </html>

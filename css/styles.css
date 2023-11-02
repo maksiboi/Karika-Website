@@ -7981,9 +7981,11 @@ textarea.form-control-lg {
   font-weight: bolder !important;
   background-color: #e0bc4c;
   color: black;
-  width: 8rem; /* Adjust the width as needed */
-  height: 5em; /* Adjust the height as needed */
+  width: 8rem; 
+  height: 5em; 
   display:inline-block;
+  border-radius: 10px; 
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); 
 }
 
 .lh-1 {

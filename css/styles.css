@@ -10996,14 +10996,16 @@ header.masthead {
 }
 
 header.masthead .masthead-subheading {
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   font-style: "Söhne", sans-serif;
   font-family: "Sohne", sans-serif;
   line-height: 1.5rem;
   margin-bottom: 25px;
   margin-left: 1rem;
   text-align: left;
-  line-height: 1.9rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
 }
 header.masthead .masthead-heading {
   font-size: 3.25rem;
@@ -11021,14 +11023,15 @@ header.masthead .masthead-heading {
 
 
   header.masthead .masthead-subheading {
-    font-size: 3.2rem;
+    font-size: 4.5rem;
     font-style: "Söhne", sans-serif;
     font-family: "Sohne", sans-serif;
-    line-height: 2.25rem;
     margin-bottom: 2rem;
     margin-left: 0.5rem;
     text-align: left;
-    line-height: 3.5rem;
+    line-height: 5rem;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
   }
   header.masthead .masthead-heading {
     font-size: 4.5rem;
@@ -11434,8 +11437,12 @@ section#contact form#contactForm :-ms-input-placeholder {
   padding-top: 3rem; /* Increase the top padding for larger screens */
   padding-bottom: 3.5rem; /* Increase the bottom padding for larger screens */
   text-align: center;
-  color: #fff; /* Text color */
+  color: #fff; 
   font-size: 1.5rem;
+}
+#about2 h2 {
+  font-size: 2.6rem;
+  line-height: 3.5rem;
 }
 
 /* Media query for smaller screens like phones second image */
@@ -11445,25 +11452,28 @@ section#contact form#contactForm :-ms-input-placeholder {
     padding-bottom: 2rem; /* Decrease the bottom padding for smaller screens */
     background-attachment: scroll;
     font-size: 1.25rem;
-    
+  }
+  #about2 h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
 #about3 {
   background-color: #394F43;
-  font-style: "Söhne", sans-serif; /* "Söhne" font style */
-  padding-top: 3rem; /* Increase the top padding for larger screens */
-  padding-bottom: 3rem; /* Increase the bottom padding for larger screens */
+  font-style: "Söhne", sans-serif; 
+  font-family: "Söhne", sans-serif; 
+  padding-top: 4rem; 
+  padding-bottom: 4rem; 
   text-align: center;
-  color: #fff; /* Text color */
-  font-size: 1.4rem;
+  color: #fff; 
 }
 
 /* Media query for smaller screens like phones second image */
 @media (max-width: 768px) {
   #about3 {
-    padding-top: 2rem; /* Decrease the top padding for smaller screens */
-    padding-bottom: 2rem; /* Decrease the bottom padding for smaller screens */
+    padding-top: 2rem; 
+    padding-bottom: 2rem; 
     background-attachment: scroll;
     font-size: 1rem;
   }
@@ -11484,7 +11494,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 @media (max-width: 768px) {
   #teme1 {
     padding-top: 8rem; /* Decrease the top padding for smaller screens */
-    padding-bottom: 4rem; /* Decrease the bottom padding for smaller screens */
+    padding-bottom: 6rem; /* Decrease the bottom padding for smaller screens */
     background-attachment: scroll;
   }
 }
@@ -11493,29 +11503,41 @@ section#contact form#contactForm :-ms-input-placeholder {
   background-color: rgba(180, 122, 118, 1);
   font-style: "Söhne", sans-serif; /* "Söhne" font style */
   padding-top: 3rem; /* Increase the top padding for larger screens */
-  padding-bottom: 3.5rem; /* Increase the bottom padding for larger screens */
+  padding-bottom: 4.5rem; /* Increase the bottom padding for larger screens */
   text-align: center;
   color: #fff; /* Text color */
   font-size: 1.5rem;
+}
+#teme2 h2 {
+  font-size: 2.6rem; 
+  margin-bottom: 0.0rem;
+  line-height: 3.5rem;
 }
 
 /* Media query for smaller screens like phones second image */
 @media (max-width: 768px) {
   #teme2 {
-    padding-top: 3rem; /* Decrease the top padding for smaller screens */
+    padding-top: 2rem; /* Decrease the top padding for smaller screens */
     padding-bottom: 2rem; /* Decrease the bottom padding for smaller screens */
     background-attachment: scroll;
     font-size: 1.1rem;
   }
+  #teme2 h2 {
+    font-size: 1.4rem; 
+    margin-bottom: 0.0rem;
+    line-height: 2.0rem;
+  }
+  
 }
 
+
 #usluge {
-  padding-left: 5.5rem;
+  padding-left: 12.5rem;
   text-align: left;
   font-style: "Söhne", sans-serif;
   color: #fff; /* Change text color as needed */
-  padding-top: 10rem; /* Reduce the top padding to move the content closer to the top margin */
-  padding-bottom: 5rem; /* Keep the bottom padding as needed */
+  padding-top: 4rem; /* Reduce the top padding to move the content closer to the top margin */
+  padding-bottom: 8rem; /* Keep the bottom padding as needed */
   background-image: url("../assets/img/services/girl\ laptop\ smile_pic_4_rotate.jpg"); 
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11523,14 +11545,18 @@ section#contact form#contactForm :-ms-input-placeholder {
   background-size: cover;
 }
 
+#usluge-text{
+  padding-top: 2rem;
+}
+
 #usluge h {
-  font-size: 2.5rem; 
+  font-size: 3.0rem; 
   margin-bottom: 2rem; 
   font-weight: bold;
 }
 
 #usluge p {
-  font-size: 1.6rem; 
+  font-size: 1.8rem; 
   margin-top: 1rem;
 }
 
@@ -11557,7 +11583,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   }
 
   #usluge p {
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin-top: 1rem;
     position: relative; /* Set the position to relative */
     z-index: 1; /* Ensure text is above pseudo-element */
@@ -11575,11 +11601,29 @@ section#contact form#contactForm :-ms-input-placeholder {
   }
 }
 
+@media (min-width: 2000px) {
+  #usluge {
+    padding-top: 5rem; 
+    padding-bottom: 9rem; 
+    padding-left: 25.5rem;
+  }
+
+  #usluge h {
+    font-size: 3.5rem; 
+  }
+
+  #usluge p {
+    font-size: 2rem; 
+    margin-top: 2rem; 
+  }
+}
+
 
 #usluge2{
   background-color: #6d5b4f;
   color: #fff;
   font-style: "Söhne", sans-serif;
+  padding-bottom: 1.2rem;
 }
 
 #usluge2 h2 {

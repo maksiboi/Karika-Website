@@ -93,7 +93,8 @@
 
 body {
   margin: 0;
-  font-family: var(--bs-body-font-family);
+  /*font-family: var(--bs-body-font-family); */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
@@ -10970,6 +10971,7 @@ p {
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 3.5em;
   }
+
   #mainNav.navbar-shrink .navbar-brand svg,
   #mainNav.navbar-shrink .navbar-brand img {
     height: 3.5rem;
@@ -10996,10 +10998,10 @@ header.masthead {
 header.masthead .masthead-subheading {
   font-size: 1.8rem;
   font-style: "Söhne", sans-serif;
+  font-family: "Sohne", sans-serif;
   line-height: 1.5rem;
   margin-bottom: 25px;
   margin-left: 1rem;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   text-align: left;
   line-height: 1.9rem;
 }
@@ -11021,6 +11023,7 @@ header.masthead .masthead-heading {
   header.masthead .masthead-subheading {
     font-size: 3.2rem;
     font-style: "Söhne", sans-serif;
+    font-family: "Sohne", sans-serif;
     line-height: 2.25rem;
     margin-bottom: 2rem;
     margin-left: 0.5rem;
@@ -11286,11 +11289,19 @@ header.masthead .masthead-heading {
   }
 }
 .team-member {
-  margin-bottom: 3rem;
+  margin-bottom: 2.5rem;
   text-align: center;
   font-style: "Söhne", sans-serif;
   margin-top: 2rem;
 }
+
+@media (max-width: 768px) {
+  .team-member {
+    margin-bottom: 0.5rem;
+  }
+  
+}
+
 .team-member img {
   width: 13.5rem;
   height: 16rem; 
@@ -11311,7 +11322,7 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../assets/img/contact/zena\ i\ ruka\ _\ zadnja\ slika.avif");
+  background-image: url("../assets/img/contact/zena\ i\ ruka\ _\ zadnja\ slika.jpg");
   background-repeat: no-repeat;
   background-position: center;
   font-style: "Söhne", sans-serif;
@@ -11462,7 +11473,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 #teme1 {
   padding-top: 25rem; /* Increase the top padding to make the container taller */
   padding-bottom: 20rem; /* Increase the bottom padding to make the container taller */
-  background-image: url("../assets/img/themes/decko_krug_slika\ 3.avif"); 
+  background-image: url("../assets/img/themes/decko_krug_slika\ 3.jpg"); 
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11505,7 +11516,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   color: #fff; /* Change text color as needed */
   padding-top: 10rem; /* Reduce the top padding to move the content closer to the top margin */
   padding-bottom: 5rem; /* Keep the bottom padding as needed */
-  background-image: url("../assets/img/services/girl\ laptop\ smile_pic_4_rotate.avif"); 
+  background-image: url("../assets/img/services/girl\ laptop\ smile_pic_4_rotate.jpg"); 
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11532,7 +11543,7 @@ section#contact form#contactForm :-ms-input-placeholder {
     color: #fff; /* Change text color as needed */
     padding-top: 3rem; /* Reduce the top padding to move the content closer to the top margin */
     padding-bottom: 2rem; /* Keep the bottom padding as needed */
-    background-image: url("../assets/img/services/girl\ laptop\ smile_pic_4_rotate.avif");
+    background-image: url("../assets/img/services/girl\ laptop\ smile_pic_4_rotate.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -11608,7 +11619,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   color: #fff;
   padding-top: 20rem;
   padding-bottom: 15rem;
-  background-image: url("../assets/img/presentation/svjetiljke_5.avif");
+  background-image: url("../assets/img/presentation/svjetiljke_5.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11686,3 +11697,61 @@ h2.section-heading.text-uppercase-3 {
   background-color: #e0bc4c;
   font-style: "Söhne", sans-serif;
 }
+
+
+#contact2 {
+  color: #fff; 
+  padding-top: 10rem; 
+  padding-bottom: 30rem; 
+  background-image: url("../assets/img/contact/zena\ i\ ruka\ _\ zadnja\ slika.jpg"); 
+  background-position: center center;
+  background-size: cover;
+  
+}
+
+@media (max-width: 768px) {
+  #contact2{
+    padding-top: 5rem;
+    padding-bottom: 15rem;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+}
+
+#location2 {
+  background-color: #e0bc4c;
+  text-align: center; 
+  padding: 3.5rem 3.5rem; /* Add padding to control the distance from top and bottom */
+  font-size: 1.3rem;
+
+}
+
+#location2 h2.section-heading {
+  font-size: 2.85rem;
+  margin-top: 0; 
+}
+
+@media (max-width: 768px) {
+  #location2 {
+    background-color: #e0bc4c;
+    text-align: center; 
+    padding: 1.5rem 1.5rem; /* Add padding to control the distance from top and bottom */
+    font-size: 1rem;
+  
+  }
+  
+  #location2 h2.section-heading {
+    font-size: 2rem;
+    margin-top: 0; 
+  }
+  
+}
+
+.mail-to-2 {
+  color: black; 
+  text-decoration: none; 
+}
+
+
+

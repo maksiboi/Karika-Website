@@ -11601,6 +11601,22 @@ section#contact form#contactForm :-ms-input-placeholder {
   }
 }
 
+@media (min-width: 2000px) {
+  #usluge {
+    padding-top: 5rem; 
+    padding-bottom: 9rem; 
+    padding-left: 25.5rem;
+  }
+
+  #usluge h {
+    font-size: 3.5rem; 
+  }
+
+  #usluge p {
+    font-size: 2rem; 
+    margin-top: 2rem; 
+  }
+}
 
 
 #usluge2{

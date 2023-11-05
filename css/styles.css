@@ -11560,11 +11560,6 @@ section#contact form#contactForm :-ms-input-placeholder {
   margin-top: 1rem;
 }
 
-@media (min-width: 1600px) {
-  #usluge {
-    padding-left: 12.5rem; 
-}
-
 @media (max-width: 768px) {
   #usluge {
     position: relative; /* Make the section a positioning context */
@@ -11767,16 +11762,14 @@ h2.section-heading.text-uppercase-3 {
   #location2 {
     background-color: #e0bc4c;
     text-align: center; 
-    padding: 1.5rem 1.5rem; /* Add padding to control the distance from top and bottom */
+    padding: 1.5rem 1.5rem; 
     font-size: 1rem;
   
   }
-  
   #location2 h2.section-heading {
     font-size: 2rem;
     margin-top: 0; 
   }
-  
 }
 
 .mail-to-2 {

@@ -11560,6 +11560,11 @@ section#contact form#contactForm :-ms-input-placeholder {
   margin-top: 1rem;
 }
 
+@media (min-width: 1200px) {
+  #usluge {
+    padding-left: 12.5rem; 
+}
+
 @media (max-width: 768px) {
   #usluge {
     position: relative; /* Make the section a positioning context */
@@ -11600,8 +11605,6 @@ section#contact form#contactForm :-ms-input-placeholder {
     z-index: -1;
   }
 }
-
-
 
 #usluge2{
   background-color: #6d5b4f;

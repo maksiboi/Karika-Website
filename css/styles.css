@@ -133,7 +133,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: calc(1.325rem + 0.9vw);
+  font-size: calc(1.12rem + 0.9vw);
 }
 @media (min-width: 1200px) {
   h2, .h2 {
@@ -11451,10 +11451,10 @@ section#contact form#contactForm :-ms-input-placeholder {
     padding-top: 3rem; /* Decrease the top padding for smaller screens */
     padding-bottom: 2rem; /* Decrease the bottom padding for smaller screens */
     background-attachment: scroll;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
   }
   #about2 h2 {
-    font-size: 1.5rem;
+    font-size: calc(1.15rem + 0.9vw);
     line-height: 2rem;
   }
 }
@@ -11518,12 +11518,12 @@ section#contact form#contactForm :-ms-input-placeholder {
 @media (max-width: 768px) {
   #teme2 {
     padding-top: 2rem; /* Decrease the top padding for smaller screens */
-    padding-bottom: 2rem; /* Decrease the bottom padding for smaller screens */
+    padding-bottom: 1.5rem; /* Decrease the bottom padding for smaller screens */
     background-attachment: scroll;
     font-size: 1.1rem;
   }
   #teme2 h2 {
-    font-size: 1.4rem; 
+    font-size: calc(1.15rem + 0.9vw);
     margin-bottom: 0.0rem;
     line-height: 2.0rem;
   }
@@ -11562,13 +11562,12 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 @media (max-width: 768px) {
   #usluge {
-    position: relative; /* Make the section a positioning context */
-    padding-left: 1.8rem;
+    position: relative; 
+    padding-left: 1.05rem;
     text-align: left;
-    font-style: "Söhne", sans-serif;
-    color: #fff; /* Change text color as needed */
-    padding-top: 3rem; /* Reduce the top padding to move the content closer to the top margin */
-    padding-bottom: 2rem; /* Keep the bottom padding as needed */
+    color: #fff; 
+    padding-top: 3rem; 
+    padding-bottom: 2rem; 
     background-image: url("../assets/img/services/girl\ laptop\ smile_pic_4_rotate.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -11577,13 +11576,13 @@ section#contact form#contactForm :-ms-input-placeholder {
   }
 
   #usluge h {
-    font-size: 1.3rem; 
+    font-size: calc(1.15rem + 0.9vw); 
     margin-bottom: 2rem; 
     font-weight: bold;
   }
 
   #usluge p {
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin-top: 1rem;
     position: relative; /* Set the position to relative */
     z-index: 1; /* Ensure text is above pseudo-element */
@@ -11593,7 +11592,7 @@ section#contact form#contactForm :-ms-input-placeholder {
     content: '';
     position: absolute;
     top: 0;
-    left: -50vw; /* Extend to the left side of the screen */
+    left: -41.5vw; /* Extend to the left side of the screen */
     width: 100vw;
     height: 100%;
     background-color: rgba(109, 91, 79, 0.5);
@@ -11628,13 +11627,13 @@ section#contact form#contactForm :-ms-input-placeholder {
   }
   
   #usluge2 h2 {
-    font-size: 1.4rem; 
+    font-size: calc(1.15rem + 0.9vw); 
     margin-bottom: 1rem;
   }
   
   #usluge2 p {
-    font-size: 1.2rem; 
-    margin-bottom: 1.5rem;
+    font-size: 1.05rem; 
+    margin-bottom: 1.2rem;
   }
 }
 
@@ -11667,8 +11666,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 /* Media query for smaller screens like phones */
 @media (max-width: 768px) {
   #presentation {
-    padding-top: 12rem;
-    padding-bottom: 3rem;
+    padding-top: 4rem;
   }
   #presentation h1 {
     position: absolute;
@@ -11677,7 +11675,7 @@ section#contact form#contactForm :-ms-input-placeholder {
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    font-size: 1.04rem;
+    font-size: 1.15rem;
     white-space:wrap; /* Prevent line breaks on mobile view */
     display:block; /* Display as a block to prevent <br> line breaks on mobile */
   }
@@ -11700,12 +11698,12 @@ section#contact form#contactForm :-ms-input-placeholder {
     background-color: #6d5b4f;
     font-style: "Söhne", sans-serif;
     color: #fff;
-    padding-top: 2.4rem;
+    padding-top: 1.5rem;
     padding-bottom: 2.2rem;
   }
   
   #presentation2 p {
-    font-size: 1.2rem;  
+    font-size: 1.1rem;  
   }
 }
 

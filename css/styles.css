@@ -11675,25 +11675,7 @@ section#contact form#contactForm :-ms-input-placeholder {
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    font-size: 1.15rem;
-    white-space:wrap; /* Prevent line breaks on mobile view */
-    display:block; /* Display as a block to prevent <br> line breaks on mobile */
-  }
-}
-
-/* Media query for smaller screens like phones */
-@media (max-width: 845px) {
-  #presentation {
-    padding-top: 4rem;
-  }
-  #presentation h1 {
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 1.05rem;
+    font-size: 1.2rem;
     white-space:wrap; /* Prevent line breaks on mobile view */
     display:block; /* Display as a block to prevent <br> line breaks on mobile */
   }

@@ -11681,6 +11681,24 @@ section#contact form#contactForm :-ms-input-placeholder {
   }
 }
 
+/* Media query for smaller screens like phones */
+@media (max-width: 845px) {
+  #presentation {
+    padding-top: 4rem;
+  }
+  #presentation h1 {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.05rem;
+    white-space:wrap; /* Prevent line breaks on mobile view */
+    display:block; /* Display as a block to prevent <br> line breaks on mobile */
+  }
+}
+
 #presentation2{
   background-color: #6d5b4f;
   font-style: "Söhne", sans-serif;

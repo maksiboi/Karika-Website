@@ -11675,7 +11675,7 @@ section#contact form#contactForm :-ms-input-placeholder {
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     white-space:wrap; /* Prevent line breaks on mobile view */
     display:block; /* Display as a block to prevent <br> line breaks on mobile */
   }

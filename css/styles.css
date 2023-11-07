@@ -11653,14 +11653,15 @@ section#contact form#contactForm :-ms-input-placeholder {
   position: relative;
 }
 
-#presentation h1 {
+#presentation h2 {
   position: absolute;
+  font-size: 2.6rem;
   bottom: 10px;
   left: 0;
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  white-space: nowrap; /* Prevent line breaks in desktop view */
+  white-space: nowrap; 
 }
 
 /* Media query for smaller screens like phones */
@@ -11668,14 +11669,14 @@ section#contact form#contactForm :-ms-input-placeholder {
   #presentation {
     padding-top: 4rem;
   }
-  #presentation h1 {
+  #presentation h2 {
     position: absolute;
     bottom: 10px;
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     white-space:wrap; /* Prevent line breaks on mobile view */
     display:block; /* Display as a block to prevent <br> line breaks on mobile */
   }
